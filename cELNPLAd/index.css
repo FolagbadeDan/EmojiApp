@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Baloo;
+    height: 100vh;
+}
+h1{
+    margin-top: 0;
+    color: brown
+}
+
+/*Typograpy*/
+button{
+    font-family: Baloo;
+}
+
+input{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+button:hover{
+    background-color: magenta;
+    transform: scale(1.1);
+}
+
+span{ 
+    margin-bottom: 1em;
+}
+
+/*layout*/
+input{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    padding: 3px;
+}
+header{
+    background: white;
+    text-align: center;
+    color: burlywood;
+    background-image: inherit;
+    padding: 30px
+}
+.wrapper{
+    background-image: url($1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: palevioletred;
+    text-align: center;
+    background-image: url(images/more-leaves.png);
+    }
+    
+    .btn-section{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+        flex-direction: column;
+        align-items: center;
+    }
+.btn-section-green,
+.btn-section-red{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+    
+
+.btn-section-green button{
+    background-color: green;
+    color: white;
+    margin-bottom: 0;
+    }
+ 
+.btn-section-red button{
+    background-color: darkred;
+    color: white;
+    margin-top: 0;
+}
